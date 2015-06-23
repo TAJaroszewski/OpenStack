@@ -1,0 +1,13 @@
+cinder-driver-icehouse
+
+This is the Cinder (Dell Storage Center iSCSI) driver backported to OpenStack Icehouse.
+
+Data
+-------
+23.06.2015
+
+Contact
+-------
+tajaroszewski@gmail.com
+
+#EOF

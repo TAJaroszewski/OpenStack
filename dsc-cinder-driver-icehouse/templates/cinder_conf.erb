@@ -1,0 +1,13 @@
+[delliscsi]
+volume_backend_name = delliscsi
+volume_driver = cinder.volume.drivers.dell.dell_storagecenter_iscsi.DellStorageCenterISCSIDriver
+san_ip = <%= @san_ip %>
+san_login = <%= @san_login %>
+san_password = <%= @san_password %>
+iscsi_ip_address = <%= @iscsi_ip_address %>
+dell_sc_ssn = <%= @dell_sc_ssn %>
+dell_sc_api_port = <%= @dell_sc_api_port %>
+dell_sc_server_folder = <%= @dell_sc_server_folder %>
+dell_sc_volume_folder = <%= @dell_sc_volume_folder %>
+iscsi_port = <%= @iscsi_port %>
+
