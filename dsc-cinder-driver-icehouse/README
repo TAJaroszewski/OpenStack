@@ -1,6 +1,7 @@
 cinder-driver-icehouse
 
 This is the Cinder (Dell Storage Center iSCSI) driver backported to OpenStack Icehouse.
+On controllers please install open-iscsi open-iscsi-utils (Needed, in standard scenario, for upload-to-image; aptitude install open-iscsi open-iscsi-utils)
 
 Data
 -------
