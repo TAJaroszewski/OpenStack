@@ -13,7 +13,7 @@ if [ $? -eq 0 ]; then
         if [ -n "$QROUTERS_ARRAY" ]; then
 
 	for LIST in $QROUTERS_ARRAY; do
-                # CHECKING SIZE of QROUTER; MUST BE EQUAL to 45;
+                # CHECKING SIZE of QROUTER;
                 Q_SIZE=`echo $LIST | wc -c`;
                 if [ $Q_SIZE -eq 43 ]; then
 			Q_NUM_TOTAL=$(($Q_NUM_TOTAL+1));
